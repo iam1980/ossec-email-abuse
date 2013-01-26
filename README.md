@@ -25,8 +25,7 @@ wget https://github.com/iam1980/ossec-email-abuse/raw/master/abuseEmail-1.1.3.pl
 wget https://github.com/iam1980/ossec-email-abuse/raw/master/email-abuse.sh --no-check-certificate
 chmod 500 abuseEmail.pl
 chmod 500 email-abuse.sh
-chown root.ossec abuseEmail.pl
-chown root.ossec email-abuse.sh
+chown root.ossec abuseEmail.pl email-abuse.sh
 </pre>
 2. Test that abuseEmail.pl is working
 <pre>
