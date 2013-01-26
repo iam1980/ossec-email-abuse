@@ -13,7 +13,7 @@ Notes:
 The script uses abuseEmail.pl which was originally coded by Guillaume Filion <guillaueme@filion.org> http://logidac.com/abuseEmail/
 I have updated abuseEmail.pl to remove some old reserved IP address ranges. 
 
-I have tested the script over my list of offending IPs' (3000 over the last 2 months) and it has a succes ration of about 70% in finding the abuse email contact.
+I have tested the script over my list of offending IPs' (3000 over the last 2 months) and it has a succes ratio of about 70% in finding the abuse email contact.
 
 Installation:
 -------------
