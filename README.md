@@ -1,11 +1,19 @@
 ossec-email-abuse
 =================
 
-An active response script for OSSEC that sends an email to the abuse contact of the offending IPs.
+An active response script for OSSEC that sends an email to the abuse contact of the offending IP.
 
 Requirements:
+-------------
 * host,dig,whois,mailx *nix programs
 * Perl Net::DNS CPAN module
+
+Notes:
+------
+The script uses abuseEmail.pl which was originally coded by Guillaume Filion <guillaueme@filion.org> http://logidac.com/abuseEmail/
+I have updated abuseEmail.pl to remove some old reserved IP address ranges. 
+
+I have tested the script over my list of offending IPs' (3000 over the last 2 months) and it has a succes ration of about 70% in finding the abuse email contact.
 
 Installation:
 -------------
