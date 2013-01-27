@@ -62,3 +62,7 @@ ECONTACT="myemail@mydomain.com"
     <level>6</level>
   </active-response>
 `````
+5. Restart OSSEC
+<pre>
+service ossec restart
+</pre>
